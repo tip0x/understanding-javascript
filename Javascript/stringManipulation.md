@@ -42,8 +42,28 @@ console.log( startsWithX("spaceX") ); // false
 ```
 
 #### Ends With X
+Complete the endsWithX function by detecting if the last character in the string is a lower-case x or an upper-case X. Return true if it is, false if not.
+
 ```function endsWithX(string) {
     return string[string.length - 1] === 'x' || string[string.length - 1] === 'X';
 }
+module.exports = endsWithX;
+```
 
-module.exports = endsWithX;```
+#### Is All X
+Complete the function isAllX to determine if the entire string is made of lower-case x or upper-case X. Return true if they are, false if not.
+
+Examples:
+```
+function isAllX(string) {
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] !== 'x' && string[i] !== 'X') {
+      return false;
+    }
+  }
+  return true;
+}
+
+isAllX("Xx"); // true
+isAllX("xAbX"); // false
+```
