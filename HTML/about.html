@@ -26,41 +26,74 @@
     </figure>
     <br>
     <table>
+        <caption>My Daily Schedule</caption>
+        <thead>
         <tr>
-            <th>Time</th>
-            <th>Activity</th>
+            <th scope="col">Days</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
-            <td>
+                <th id="morning" scope="row">Morning</th>
+            <td headers="time morning">
                 <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
             </td>
             <td>Write Code</td>
         </tr>
         <tr>
+            <th scope="row">Break</th>
             <td>
                 <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
             </td>
             <td>Eat Lunch</td>
         </tr>
         <tr>
+            <th scope="row">Afternoon</th>
             <td>
                 <time datetime="17:00">5pm</time>-<time datetime="18:00">6pm</time>
             </td>
             <td>Close Shift</td>
             <tr>
+                <th scope="row">Evening</th>
                 <td rowspan="2">All Other Time</td>
                 <td>Free Time</td>
             </tr>
             <tr>
+                <th scope="row">Night</th>
                 <td>Sleep</td>
             </tr>
         </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">And that is all for the timetable.</td>
+    </tfoot>
     </table>
+    <hr>
+    <h2>Request form</h2>
+    <form action="https://httpbin.com/get" method="get">
+        <p>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Adekunle" autocomplete="on" required autofocus>
+    </p>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Ciroma" autocomplete="on" required>
+    </form>
+    <label for="bilirubin">Bilirubin</label>
+    <select name="bilirubin" id="bilirubin">
+        <optgroup label="All groups">
+    <option value="conjugated" id="conjugated">Conjugated Bilirubin</option>
+    <option value="unconjugated" id="unconjugated">Unconjugated Bilirubin</option>
+</optgroup>
+    </select>
         <ul>
             <li>
                 Download <a href="Bobby.png"download>Favicon</a>
             </li>
-            <li>
+            <li></tr>
                 Open <a href="https://www.github.com/tip0x" target="_blank">github repo</a> in a new tab.
             </li>
         </ul>
@@ -72,5 +105,5 @@
         </address>
         &lt;&lt;&lt; &copysr; &#181;F Saddam  &gt;&gt;&gt;
         <hr>
-    </body>
+    </body></tr>
 </html>
