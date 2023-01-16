@@ -47,8 +47,48 @@
                 <table width="100%">
                     <caption>REPORT (for laboratory use only</caption> 
                     <tbody>
+
                         <tr>
-                            <th>Electrolyte</th>
+                            <td  width="50%">
+                                <label for="electrolyte">Electrolyte</label>
+                                <select name="electrolyte" id="electrolyte">
+                                <option value="none" id="none" autofocus></option>
+                                <option value="bicarbonate" id="bicarbonate">Bicarbonate</option>
+                                <option value="chloride" id="chloride">Chloride</option>
+                                <option value="sodium" id="sodium">Sodium</option>
+                                <option value="potassium" id="potassium">Potassium</option>
+                                <option value="calcium" id="calcium">Calcium</option>
+                                <option value="phosphorus" id="phosphorus">Phosphorus</option>
+                                <option value="bloodUrea" id="bloodUrea">Blood Urea</option>
+                                <option value="plasmaCreatinine" id="plasmaCreatinine">Plasma Creatinine</option>
+                                <option value="urineCreatinine" id="urineCreatinine">Urine Creatinine</option>
+                                <option value="uricAcid" id="uricAcid">Uric Acid</option>
+                                <br>
+                                <br>
+                                <label for="enzyme">Enzymes</label>
+                                <select name="enzyme" id="enzyme">
+                                <option value="none" id="none" autofocus></option>
+                                <option value="ast" id="ast">AST (GOT)</option>
+                                <option value="alt" id="alt">ALT (GPT)</option>
+                                <option value="alk" id="alk">ALK PHOS</option>
+                                <option value="ggt" id="ggt">GGT</option>
+                                <option value="amylase" id="amylase">Amylase</option>
+                                <option value="ldh" id="ldh">LDH</option>
+                                <option value="totalCk" id="totalCk">Total Ck</option>
+                                <option value="ckmb" id="ckmb">CK-MB</option>
+                                <option value="acidphos" id="acidphos">Acid Phos</option>
+                                <option value="prostatic" id="prostatic">Prostatic</option>
+                                
+                            </td>
+                                <td>
+                                    <label for="lipidProfile">Lipid Profile (Fasting)</label>
+                                    <select name="cholesterol" id="cholesterol">
+                                    <option value="none" id="none" autofocus></option>
+                                    <option value="tChol" id="tChol">Total Cholesterol</option>
+                                    <option value="hChol" id="hChol">HDL-Cholesterol</option>
+                                        <option value="lChol" id="lChol">LDL-Cholesterol</option>
+                                        <option value="triglycerides" id="triglycerides">Triglycerides</option>
+                                </td>
                         </tr>
                     </tbody>                   
                 </table>

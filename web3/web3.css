@@ -1,0 +1,22 @@
+/* Conference room and bedroom containers */
+#conference-room, 
+.bedrooms-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual conference room and bedroom containers */
+  .conference-room, .bedroom {
+    width: 50%;
+  }
+  
+  /* Bedroom heading */
+  .bedroom h3 {
+    text-align: center;
+  }
+  
+  /* Person list items */
+  .person {
+    list-style: none;
+  }
+  
